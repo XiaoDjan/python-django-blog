@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}blog article{% endblock %}
+
+{% block content %}
+    <div class="row text-center vertical-middle-sm">
+        <h1>{{ article.title }}</h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-8">
+            <p class="text-center"><span>{{ article.author.username }}</span><span
+            style="margin-left: 20px">{{ publish }}</span> </p>
+            <div>{{ article.boby }}</div>
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <h2>广告</h2>
+            <p>我的个人博客：http://blog.lyis.top</p>
+            <img width="200px" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555127708557&di=baee60d1526f7b829f19f37f69db8ab2&imgtype=0&src=http%3A%2F%2Fwww.mayi888.com%2Fwp-content%2Fuploads%2F2017%2F02%2F15ed000bb2d80328ea69.jpg">
+        </div>
+    </div>
+{% endblock %}
