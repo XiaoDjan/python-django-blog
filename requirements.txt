@@ -4,7 +4,7 @@ Markdown==3.1
 Pillow==6.0.0
 python-slugify==3.0.2
 pytz==2019.1
-redis==3.2.1
+redis==4.4.4
 sorl-thumbnail==12.5.0
 sqlparse==0.3.0
 text-unidecode==1.2
